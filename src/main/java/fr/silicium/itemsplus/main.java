@@ -22,12 +22,10 @@ public final class main extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new potionlauncherEvent(), this);
         this.getServer().getPluginManager().registerEvents(new healchargeEvent(), this);
 
-
-
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+
     }
 }

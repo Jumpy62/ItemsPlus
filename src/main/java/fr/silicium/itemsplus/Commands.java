@@ -34,9 +34,6 @@ public class Commands  implements CommandExecutor {
                 if (command.getName().equalsIgnoreCase("healcharge")) {
                     player.getInventory().addItem(ItemManager.Heal_charge);
                 }
-
-
-
             }
         }
         return true;

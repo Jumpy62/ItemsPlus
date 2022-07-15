@@ -142,6 +142,5 @@ public class ItemManager {
         Bukkit.addRecipe(healCharge);
     }
 
-
 }
 

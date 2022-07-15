@@ -95,10 +95,9 @@ public class hammerEvent implements Listener {
                 casser(block7);
                 casser(block8);
             }
-
-            }
         }
     }
+}
 
 
 
