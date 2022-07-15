@@ -1,0 +1,23 @@
+name: ItemsPlus
+version: '${project.version}'
+main: fr.silicium.itemsplus.main
+api-version: 1.19
+authors: [ Jumpy and Xelasflame ]
+description: Items en plus
+commands:
+  netheritehammer:
+    description: hammer en netherite
+    usage: /<command>
+  ironhammer:
+    description: hammer en fer
+    usage: /<command>
+  invisibilitystick:
+    description: stick d'invisibilité
+    usage: /<command>
+  potionlauncher:
+    description: lanceur de potion
+    usage: /<command>
+  healcharge:
+    description: recharge potion
+    usage: /<command>
+
