@@ -11,7 +11,8 @@ public class healchargeEvent implements Listener {
 
     @EventHandler
     public void onEat(PlayerItemConsumeEvent event){
-            if (Objects.requireNonNull(Objects.requireNonNull(event.getPlayer().getInventory().getItemInMainHand().getItemMeta().getLore().contains("§heal quand on le mange")))){
-                event.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.HEAL, 2, 0, true, true));
-            }}
+        if (Objects.requireNonNull(Objects.requireNonNull(event.getPlayer().getInventory().getItemInMainHand().getItemMeta()).getLore()).contains("§heal quand on le mange")){
+            event.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.HEAL, 2, 0, true, true));
+        }
     }
+}
